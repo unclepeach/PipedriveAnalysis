@@ -1,6 +1,6 @@
 # PipedriveAnalysis
-Metrics for leads quality analysis plan<br />
-Marketing Data Analysts Routine<br />
+## Metrics for leads quality analysis plan
+**Marketing Data Analysts Routine**<br />
 1.Leads last week/month<br />
 <br />
 2.Conversion ratio last week/month<br />
