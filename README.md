@@ -18,3 +18,5 @@
 8.Take note of Pipedrive errors(Event type, Leads source, etc.)<br />
 <br />
 9.Consider elements worthy of an A/B experiment
+<br />
+*https://help.github.com/articles/basic-writing-and-formatting-syntax/*
