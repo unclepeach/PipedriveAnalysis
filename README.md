@@ -5,11 +5,11 @@
 <br />
 2.Conversion ratio last week/month<br />
 <br />
-3.Revenue:YTD, last week/month, quarter<br />
+3.Revenue(Won):YTD, last week/month, quarter<br />
 <br />
 4.Track yearly/quarterly/monthly business cycles/patterns<br />
 <br />
-5.Forcast/predict revenue/leads for future<br />
+5.Forcast/predict(Ave_rev * Conversion ratio * Total) revenue/leads for future<br />
 <br />
 6.Forcast/propose advertising budget ROI results for lead source(Yelp, Google Search, etc.)<br />
 <br />
