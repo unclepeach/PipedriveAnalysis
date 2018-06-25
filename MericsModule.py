@@ -21,3 +21,8 @@ weekly_leads.plot()
 df['Deal - Deal created'].resample('M').count()
 monthly_leads = df['Deal - Deal created'].resample('M').count()
 monthly_leads.plot()
+
+### period setting and use
+###begin = pd.Timestamp('2018-06-18 07:00:00')
+###end = pd.Timestamp('2018-06-24 23:00:00')
+###df[(df.index >= begin)&(df.index <=end)]
