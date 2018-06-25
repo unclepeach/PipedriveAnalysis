@@ -64,3 +64,8 @@ dfa = df.groupby(['Deal - Status']).get_group('Won')
 rev_q = dfa['Deal - Value'].resample('Q').sum().tail(1)
 rev_q = rev_q.get(0)
 print ('Rev_last quarter =', rev_q, 'USD')
+
+dfa = df.groupby(['Deal - Status']).get_group('Won')
+### Because the latest pipedrive raw data only contains 2018 period
+rev_YTD = dfa['Deal - Value'].sum()
+print ('Rev_YTD =', rev_YTD.round(2), 'USD')
