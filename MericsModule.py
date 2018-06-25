@@ -13,3 +13,7 @@ for sheet_name in workbook.sheet_names:
 df['Deal - Deal created'] = pd.to_datetime(df['Deal - Deal created'])
 df.index = df['Deal - Deal created'] 
 ###del df['Deal - Deal created']
+
+###1.Leads last week/month
+df['Deal - Deal created'].resample('W').count()
+df['Deal - Deal created'].resample('M').count()
