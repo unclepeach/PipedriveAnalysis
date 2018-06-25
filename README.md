@@ -23,4 +23,4 @@
 <br />
 *https://help.github.com/articles/basic-writing-and-formatting-syntax/*<br />
 <br />
-*Year-to-date (YTD) is a period, starting from the beginning of the current year (either the calendar year or fiscal year) and continuing up to the present day.*
+***Year-to-date (YTD)** is a period, starting from the beginning of the current year (either the calendar year or fiscal year) and continuing up to the present day.*
