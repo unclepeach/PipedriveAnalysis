@@ -48,3 +48,19 @@ won_m = won_m.get(0)
 all_m = df['Deal - Deal created'].resample('M').count().tail(1)
 all_m = all_m.get(0)
 print ('Conversion ratio_last month = '+'{:.1%}'.format(won_m/all_m))
+
+###3.Revenue:YTD, last week/month, quarter
+dfa = df.groupby(['Deal - Status']).get_group('Won')
+rev_w = dfa['Deal - Value'].resample('W').sum().tail(1)
+rev_w = rev_w.get(0)
+print ('Rev_last week =', rev_w, 'USD')
+
+dfa = df.groupby(['Deal - Status']).get_group('Won')
+rev_m = dfa['Deal - Value'].resample('M').sum().tail(1)
+rev_m = rev_m.get(0)
+print ('Rev_last month =', rev_m, 'USD')
+
+dfa = df.groupby(['Deal - Status']).get_group('Won')
+rev_q = dfa['Deal - Value'].resample('Q').sum().tail(1)
+rev_q = rev_q.get(0)
+print ('Rev_last quarter =', rev_q, 'USD')
