@@ -19,4 +19,6 @@
 <br />
 9.Consider elements worthy of an A/B experiment<br />
 <br />
+10.Check Marchex for lost deals, "lost reason"<br />
+<br />
 *https://help.github.com/articles/basic-writing-and-formatting-syntax/*
