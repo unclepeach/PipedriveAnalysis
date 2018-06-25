@@ -16,4 +16,8 @@ df.index = df['Deal - Deal created']
 
 ###1.Leads last week/month
 df['Deal - Deal created'].resample('W').count()
+weekly_leads = df['Deal - Deal created'].resample('W').count()
+weekly_leads.plot()
 df['Deal - Deal created'].resample('M').count()
+monthly_leads = df['Deal - Deal created'].resample('M').count()
+monthly_leads.plot()
