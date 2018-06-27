@@ -69,3 +69,13 @@ dfa = df.groupby(['Deal - Status']).get_group('Won')
 ### Because the latest pipedrive raw data only contains 2018 period
 rev_YTD = dfa['Deal - Value'].sum()
 print ('Rev_YTD =', rev_YTD.round(2), 'USD')
+
+### Pattern Detection based on 2013-2018 leads ###
+workbook=pd.ExcelFile('C:\\Users\\becintern\\Downloads\\deals-2644782-306.xlsx')
+dictionary = {}
+for sheet_name in workbook.sheet_names:
+ df = workbook.parse(sheet_name)
+ dictionary[sheet_name] = df
+
+df['Deal - Deal created'] = pd.to_datetime(df['Deal - Deal created'])
+df.index = df['Deal - Deal created'] 
