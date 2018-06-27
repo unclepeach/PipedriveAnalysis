@@ -1,0 +1,14 @@
+1 - Install GithubDesktop
+2 - Edit Enviroment Variables - Path = "xx;C:\Users\becintern\AppData\Local\GitHubDesktop\bin;C:\Users\becintern\AppData\Local\GitHubDesktop\app-1.2.6\resources\app\git\cmd"
+    including the git.exe
+Jupyter
+3 - >>> !pip install git+https://github.com/matumaros/pypedriver
+Collecting git+https://github.com/matumaros/pypedriver
+  Cloning https://github.com/matumaros/pypedriver to c:\users\becint~1\appdata\local\temp\pip-req-build-_5rmel0v
+Building wheels for collected packages: pypedriver
+  Running setup.py bdist_wheel for pypedriver: started
+  Running setup.py bdist_wheel for pypedriver: finished with status 'done'
+  Stored in directory: C:\Users\BECINT~1\AppData\Local\Temp\pip-ephem-wheel-cache-n40i6lrv\wheels\8b\5b\24\7a0f205a20c60f6ec2d80d89c2e931ed855e5ffd8cb76634b3
+Successfully built pypedriver
+Installing collected packages: pypedriver
+Successfully installed pypedriver-1.4
