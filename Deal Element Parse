@@ -1,11 +1,13 @@
-<Deal(id=8; 
+<Deal
+(
+id=8; 
 creator_user_id={'id': 1199815, 'name': 'BEC Master', 'email': 'bec.bizexpo@gmail.com', 'has_pic': False, 'pic_hash': None, 'active_flag': True, 'value': 1199815}; 
 user_id={'id': 1203115, 'name': 'Daniel Mashek', 'email': 'dmashek@businessexpocenter.com', 'has_pic': False, 'pic_hash': None, 'active_flag': False, 'value': 1203115}; 
 person_id={'name': 'Ms. Wendy Tran', 'email': [{'value': '', 'primary': True}], 'phone': [{'label': 'mobile', 'value': '(714) 478-6050', 'primary': True}], 'value': 8}; 
 org_id={'name': 'Tran Family', 'people_count': 0, 'owner_id': 1203115, 'address': None, 'cc_email': 'businessexpocenter@pipedrivemail.com', 'value': 5}; 
 stage_id=9; 
 title=Tran Family deal; 
-value=1620; 
+value=1620;
 currency=USD; 
 add_time=2016-03-07 23:27:51; 
 update_time=2016-09-02 20:49:14; 
@@ -70,4 +72,5 @@ rotten_time=None;
 owner_name=Daniel Mashek; 
 cc_email=businessexpocenter+deal8@pipedrivemail.com; 
 org_hidden=False; 
-person_hidden=False)>
+person_hidden=False
+)>
