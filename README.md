@@ -26,3 +26,5 @@
 ***Year-to-date (YTD)** is a period, starting from the beginning of the current year (either the calendar year or fiscal year) and continuing up to the present day.* <br />
 <br />
 Get json type deals from pipedrive: https://api.pipedrive.com/v1/persons?start=0&api_token=07ba66b6c2d9507efcb9a6ad055178675743b015
+<br />
+Deals json storage: https://api.pipedrive.com/v1/deals?start=0&api_token=07ba66b6c2d9507efcb9a6ad055178675743b015
