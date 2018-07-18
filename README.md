@@ -44,4 +44,3 @@ Pipeline Performance Report - Count/Value:
 2. Deal Progress: New Prospect --> Follow Up Made --> Qualified Prospect --> Prospect Toured Facility --> In Negotiation --> Prospect In Verbal Agreement --> Prospect Has Proposal(stages)
 3. Deal Velocity - Won/Lost (By stage\over time)
 4. Deal Conversion to next stage (Lost from each stage)
-4.
