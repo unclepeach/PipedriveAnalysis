@@ -38,3 +38,10 @@ Defined: the process that’s composed of the conversations with prospects that 
 2. Average size and value of the deals in your pipeline
 3. Close ratio, average percentage of deals won
 4. Sales velocity, average time it takes to win a deal
+
+Pipeline Performance Report - Count/Value:
+1. Deals started by salesperson periodly
+2. Deal Progress: New Prospect --> Follow Up Made --> Qualified Prospect --> Prospect Toured Facility --> In Negotiation --> Prospect In Verbal Agreement --> Prospect Has Proposal(stages)
+3. Deal Velocity - Won/Lost (By stage\over time)
+4. Deal Conversion to next stage (Lost from each stage)
+4.
