@@ -32,3 +32,9 @@ Deals json storage: https://api.pipedrive.com/v1/deals?start=0&api_token=07ba66b
 **Parse complex nested json source in Python**
 
 2018-7-18 Sales Pipeline ANA sef-study: https://www.pipedrive.com/en/features/sales-pipeline-analysis
+Defined: the process that’s composed of the conversations with prospects that lead to closed deals and fall within the timeframe of your normal sales cycle.
+4 metrics that make up the sales pipeline:
+1. The number of deals in your pipeline
+2. Average size and value of the deals in your pipeline
+3. Close ratio, average percentage of deals won
+4. Sales velocity, average time it takes to win a deal
