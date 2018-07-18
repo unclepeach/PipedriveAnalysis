@@ -31,4 +31,4 @@ Deals json storage: https://api.pipedrive.com/v1/deals?start=0&api_token=07ba66b
 <br />
 **Parse complex nested json source in Python**
 
-https://www.pipedrive.com/en/features/sales-pipeline-analysis
+2018-7-18 Sales Pipeline ANA sef-study: https://www.pipedrive.com/en/features/sales-pipeline-analysis
